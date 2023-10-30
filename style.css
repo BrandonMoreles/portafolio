@@ -70,12 +70,13 @@ h1{
     display: flex;
     width: 35%;
 }
-.nav i{
+.nav a{
+    all: unset;
     margin: auto;
     transition: all .3s;
     font-size: 1.3vw;
 }
-.nav i:hover{
+.nav a:hover{
     transform: scale(1.2);
 }
 .whatsapp{
@@ -140,4 +141,18 @@ footer{
 }
 .redes i:hover{
     transform: scale(1.2);
+}
+@media (max-width:700px) {
+    .nav span{
+        display: none;
+    }
+    .nav a{
+        font-size: 3vw;
+    }
+    .whatsapp{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 20%;
+    }
 }
