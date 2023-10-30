@@ -8,8 +8,9 @@ header{
     flex-direction: column;
     align-items: center;
 }
-header>button{
+.buttonsCarousel>button{
     all: unset;
+    font-size: 2rem;
 }
 .indicate{
     font-size: 5rem;

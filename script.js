@@ -1,5 +1,5 @@
 //Array de imagenes
-const imagesCarousel=[`assets/img/sss.jpeg`,"assets/img/Sin título.jpeg","assets/img/1456.jpg","assets/img/123.heif"]
+const imagesCarousel=[`assets/img/sss.jpeg`,"assets/img/Sin título.jpeg","assets/img/1456.jpg","assets/img/123.jpg"]
 const carousel=document.querySelector('.carouselImg')
 const indicador=document.querySelector(".indicate")
 indicador.innerHTML=(`<i class="indicador fa-solid fa-minus"></i>`.repeat(imagesCarousel.length))
