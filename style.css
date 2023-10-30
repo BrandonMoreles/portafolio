@@ -156,4 +156,11 @@ footer{
         width: 20%;
         font-size: 2.3vw;
     }
+    .promos{
+        margin-top: 3%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(30vw, 1fr));
+        width: 100%;
+        grid-gap: 6vw;
+    }
 }
