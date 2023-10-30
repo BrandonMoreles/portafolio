@@ -13,9 +13,9 @@ imagesCarousel.forEach(path => {
 const changeSelector=()=>{
     const indicadores=document.querySelectorAll(".indicador")
     indicadores.forEach(element=>{element.style.backgroundColor=`#000`
-element.style.border=`solid 3px #900`})
+element.style.border=`solid .2vw #900`})
     indicadores[indexImages].style.backgroundColor=`#fff`
-    indicadores[indexImages].style.border=`solid 3px #090`
+    indicadores[indexImages].style.border=`solid .2vw #090`
 }
 
 const carouselAutomatic=()=>{

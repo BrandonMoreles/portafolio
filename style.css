@@ -26,7 +26,7 @@ h1{
     height: 1vh;
     border-radius: 20px;
     background-color: #000;
-    border: solid 3px #900;
+    border: solid .2vw #900;
 }
 .indicate{
     display: flex;
@@ -37,7 +37,7 @@ h1{
 }
 .indicate  :first-child{
     background-color:#fff;
-    border: solid 3px #090;
+    border: solid .2vw #090;
 }
 .carouselImg{
     width: 98vw;
