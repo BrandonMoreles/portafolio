@@ -3,49 +3,57 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
+    <meta name="description" content="somos una empresa de distribucion de articulos odontologicos, manejamos marcas mundiales, tambien nos enfocamos en que no solo te lleves una herramienta si no en los conocimeintos necesarios para ser un maestro con ella">
+    <meta name="keywords" content="dentista herramientas odontologicos dientes odontologia insumos ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/img/Sin título.png" type="image/x-icon">
-    <title>Vitesa</title>
+    <link rel="icon" href="assets/img/favicon.jpg" type="image/x-icon">
+    <title>Vitesa - Los mejores articulos para dentistas</title>
 </head>
 <body>
     <header>
-        <div class="title">
-            <img src="assets/img/logo.png" alt="">
-            <div class="nav">
-                <a href=""><i class="fa-solid fa-house" style= "cursor:pointer;"><span>INICIO</span></i></a>
-                <a href=""><i class="fa-solid fa-book"><span>CATALOGO</span></i></a>
-                <a href=""><i class="fa-solid fa-phone"><span>CONTACTO</span></i></a>
+        <nav>
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="Logo de Vitesa">
             </div>
-            <div class="whatsapp">
-              <a href="https://wa.me/523312837944?text=¡Hola! Me interesan tus productos, ¿podrias darme mas informacion?." style="all:unset; cursor:pointer;"><i class="fa-brands fa-whatsapp"><span> BARUC</span></i></a>
-               <a href="https://wa.me/523332395062?text=¡Hola! Me interesan tus productos, ¿podrias darme mas informacion?." style="all:unset; cursor:pointer;"> <i class="fa-brands fa-whatsapp"><span> JOEL</span></i></i></a>
-            </div>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> <span>INICIO</span></a></li>
+                <li><a href="catalogo.html"><i class="fas fa-book"></i> <span>CATALOGO</span></a></li>
+                <li><a href="contacto.html"><i class="fas fa-phone"></i> <span>CONTACTO</span></a></li>
+            </ul>
+        </nav>
+        <div class="whatsapp">
+            <a href="https://wa.me/523312837944?text=¡Hola! Me interesan tus productos, ¿podrías darme más información?">
+                <i class="fab fa-whatsapp"></i> <span>BARUC</span>
+            </a>
+            <a href="https://wa.me/523332395062?text=¡Hola! Me interesan tus productos, ¿podrías darme más información?">
+                <i class="fab fa-whatsapp"></i> <span>JOEL</span>
+            </a>
         </div>
-        <div class="buttonsCarousel"> 
-            <button onclick="backImg()" value="0"><i class="fa-solid fa-chevron-left"></i></button>
-            <button onclick="passImg()" value="1"><i class="fa-solid fa-chevron-right"></i></button>
-        </div>
-        <img class="carouselImg" src="assets/img/hyperL.jpg" alt="">
-        <div class="indicate"></div>
     </header>
-    <section>
-        <article>
-            <section class="promociones">   
-            <h3>Promociones</h3>
+    <main>
+        <section class="carousel">
+            <div class="buttonsCarousel">
+                <button onclick="backImg()" value="0"><i class="fas fa-chevron-left"></i></button>
+                <button onclick="passImg()" value="1"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <img class="carouselImg" src="assets/img/hyperL.jpg" alt="Imagen del carrusel">
+            <div class="indicators"></div>
+        </section>
+        <section class="promotions">
+            <h2>Promociones</h2>
             <div class="promos">
-                <img src="assets/img/promo.jpeg" alt="">
-                <img src="assets/img/promo.jpeg" alt="">
-                <img src="assets/img/promo.jpeg" alt="">
-                <img src="assets/img/promo.jpeg" alt="">
-            </div></section>
-         
-        </article>
-    </section>
+                <img src="assets/img/promo1.jpeg" alt="Promoción 1">
+                <img src="assets/img/promo2.jpeg" alt="Promoción 2">
+                <img src="assets/img/promo3.jpeg" alt="Promoción 3">
+                <img src="assets/img/promo4.jpeg" alt="Promoción 4">
+            </div>
+        </section>
+    </main>
     <footer>
-        <div class="redes">
-            <a href="" style="color: #000;"><i class="fa-brands fa-facebook"></i></a>  
-            <a href="" style="color: #000;"><i class="fa-brands fa-instagram"></i></a>
-            <a href="" style="color: #000;"><i class="fa-brands fa-tiktok"></i></a>
+        <div class="social">
+            <a href="https://www.facebook.com/tupagina" style="color: #000;"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/tupagina" style="color: #000;"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/tupagina" style="color: #000;"><i class="fab fa-tiktok"></i></a>
         </div>
     </footer>
     <script src="script.js"></script>

@@ -1,7 +1,7 @@
 //Array de imagenes
 const imagesCarousel=["assets/img/hyperL.jpg",`assets/img/fastFill.jpg`,"assets/img/FLOW.jpg","assets/img/Extrem.jpg"]
 const carousel=document.querySelector('.carouselImg')
-const indicador=document.querySelector(".indicate")
+const indicador=document.querySelector(".indicators")
 indicador.innerHTML=(`<div class="indicador"></div>`.repeat(imagesCarousel.length))
 let indexImages=0
 let preloadedImages=[]
