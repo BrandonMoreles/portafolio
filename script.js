@@ -1,5 +1,5 @@
 //Array de imagenes
-const imagesCarousel=[`assets/img/logo.png`,"assets/img/Sin título.jpeg","assets/img/1456.jpg","assets/img/123.jpg"]
+const imagesCarousel=["assets/img/hyperL.jpg",`assets/img/fastFill.jpg`,"assets/img/FLOW.jpg","assets/img/Extrem.jpg"]
 const carousel=document.querySelector('.carouselImg')
 const indicador=document.querySelector(".indicate")
 indicador.innerHTML=(`<div class="indicador"></div>`.repeat(imagesCarousel.length))
@@ -13,7 +13,7 @@ imagesCarousel.forEach(path => {
 const changeSelector=()=>{
     const indicadores=document.querySelectorAll(".indicador")
     indicadores.forEach(element=>{element.style.backgroundColor=`#000`
-element.style.border=`solid .2vw #900`})
+element.style.border=`solid .2vw #000`})
     indicadores[indexImages].style.backgroundColor=`#fff`
     indicadores[indexImages].style.border=`solid .2vw #090`
 }
